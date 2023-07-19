@@ -2,8 +2,8 @@ import React from 'react';
 
 const Boutique = () => {
     return (
-        <div>
-            <p>Je suis la page Boutique</p>
+        <div className="pt-36">
+            <p className='text-center'>Je suis la page Boutique</p>
         </div>
     );
 };

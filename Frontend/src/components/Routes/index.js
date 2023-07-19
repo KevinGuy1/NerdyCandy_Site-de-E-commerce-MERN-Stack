@@ -8,10 +8,11 @@ import FAQ from "../../pages/FAQ";
 import Profil from "../../pages/Profil";
 import Panier from "../../pages/Panier";
 import Error404 from "../../pages/Error404";
+import Footer from "../Footer";
 
 const index = () => {
   return (
-    <div className="text-tertiary font-sans">
+    <div className="">
       <Router>
         <Navbar />
         <Routes>
@@ -23,6 +24,7 @@ const index = () => {
           <Route exact path="/Panier" element={<Panier />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

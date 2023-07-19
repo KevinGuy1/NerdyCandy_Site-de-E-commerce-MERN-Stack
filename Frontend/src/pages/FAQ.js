@@ -2,8 +2,8 @@ import React from 'react';
 
 const FAQ = () => {
     return (
-        <div>
-            <p>Je suis la page FAQ</p>
+        <div className='pt-36'>
+            <p className='text-center'>Je suis la page FAQ</p>
         </div>
     );
 };
