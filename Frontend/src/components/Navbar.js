@@ -25,12 +25,13 @@ const Navbar = () => {
               <li className="text-2xl">F.A.Q</li>
             </NavLink>
           </div>
-          <div className="flex justify-end list-none w-32">
+          <div className="flex justify-end list-none w-32 pb-2">
+            <i class="fas fa-search text-3xl pr-3"></i>
             <NavLink exact to="/Profil">
-              <li>Profil</li>
+              <i class="fas fa-user-circle text-3xl pr-3"></i>
             </NavLink>
             <NavLink exact to="/Panier">
-              <li>Panier</li>
+              <i class="fas fa-cart-arrow-down text-3xl pr-3"></i>
             </NavLink>
           </div>
         </div>
